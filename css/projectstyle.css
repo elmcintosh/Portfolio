@@ -1,0 +1,55 @@
+.projectpic {
+	background-color: transparent;
+	
+}
+.row{margin: 30px;}
+.projectscreen{
+	max-width: 100%;
+	height: 300px;
+	border: 2px solid white;
+	box-shadow: 10px 10px 5px #888888;
+}
+
+#description{ background-color: white;
+		height: 300px;
+
+	}
+#project-title{
+	text-align: center;
+}
+.hide-project {
+	visibility: hidden;
+	opacity: 0;
+	transform: translateY(50px);
+	transition: all .4s ease;
+}
+.show-project {
+	visibility: visible;
+	opacity: 1;
+	transform: translateY(0px);
+	transition: all .4s ease;
+	background-color:  rgba(84, 84, 84, 0.8);
+	box-shadow: 10px 10px 5px #888888;
+}
+
+h4{
+	text-align: center;
+    	color: #7EC0EE;
+    	font-family: 'Rock Salt', cursive;
+	text-shadow: 2px 2px #2f4f4f;
+}
+
+
+.description-image{
+	height:200px;
+	width:150px;
+	margin-left: 10px;
+	border-radius: 3px;
+	border: 1px solid white;
+}
+.project-desc{
+	padding:10px;
+	color: #f0884c;
+	text-align: center;
+}
+

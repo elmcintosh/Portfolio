@@ -1,0 +1,55 @@
+form {
+	float: right;
+	margin-right: 60px;
+	background-color: #7EC0EE;
+	padding: 20px;
+	box-shadow: 10px 10px 5px #888888;
+	border-radius: 10px;
+}
+
+#contactname, #contactemail, #comment{
+	width: 320px;
+	border: none;
+	border-radius: 3px;
+box-shadow: 5px 5px 5px #888888;
+	/*background-color: #7EC0EE*/
+}
+
+#submitbutton{
+	background-color: #f0884c;
+  	font-family: 'PT Sans Narrow', sans-serif;
+  	height: 40px;
+  	width: 80px;
+  	border-radius: 15px;
+  	border: 2px solid grey;
+  	box-shadow: 5px 5px 5px #888888;
+  	margin-top: 20px;
+}
+
+.contacttitle{
+	font-family: 'PT Sans Narrow', sans-serif;
+	font-size: 20px; 
+}
+
+#contactcontent{
+	text-align: center;
+    background-color: rgba(84, 84, 84, 0.8);
+    color: white;
+   
+    box-shadow: 10px 10px 5px #888888;
+	
+}
+
+#contactcontent h4{
+	font-family: 'PT Sans Narrow', sans-serif;
+	font-size: 20px;}
+
+#contactcontent h2{text-align: center;
+    color: #7EC0EE;
+    font-family: 'Rock Salt', cursive;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    animation: slideInDown .8s .2s forwards;
+    text-shadow: 2px 2px #2f4f4f;}
+
+ .subcontact{color: #F0884C;}

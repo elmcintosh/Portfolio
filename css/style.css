@@ -71,6 +71,8 @@ hr {
 
 body {
     background: url("../img/mountain.jpg") center repeat  ;
+    background-size: cover;
+    background-position: fixed;
 }
 
 .sidebar h4{
@@ -142,6 +144,16 @@ footer{
     box-shadow: 10px 10px 5px #888888;
 }
 
+#morebutton{background-color: #f0884c;
+    font-family: 'PT Sans Narrow', sans-serif;
+    height: 30px;
+    width: 60px;
+    color:white;
+    border-radius: 10px;
+    border: 3px solid darkgrey ;
+    box-shadow: 2px 2px 2px #888888;
+    margin-top: 20px;}
+
 /*ABOUT PAGE*/
 #headshot{
     border-radius: 100%;
@@ -203,4 +215,15 @@ footer{
    box-shadow: 10px 10px 5px #888888;
    margin-top: 20px;
    margin-bottom: 20px;
+}
+
+/*CONTACT PAGE*/
+.contact{
+    text-align: center;
+}
+
+/*BLOG PAGE*/
+.blog{
+    text-align: center;
+    color: white;
 }
